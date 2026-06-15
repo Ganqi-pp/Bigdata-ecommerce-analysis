@@ -12,16 +12,6 @@
 - **消息队列**：Kafka（ZooKeeper）
 - **实时计算**：Flink SQL
 - **其他**：Redis、Python（数据生成/生产）
-## 系统架构
-
-```mermaid
-graph LR
-  A[模拟数据] --> B(Hive ODS)
-  B --> C(Hive DWD)
-  C --> D[ADS/报表]
-  A --> E[Kafka]
-  E --> F[Flink SQL]
-  F --> G[实时结果]
 ## 项目结构
 bigdata-ecommerce-analysis/
 ├── docker-compose.yml # 容器编排文件
