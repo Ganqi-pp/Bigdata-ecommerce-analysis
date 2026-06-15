@@ -12,8 +12,8 @@
 - **消息队列**：Kafka（ZooKeeper）
 - **实时计算**：Flink SQL
 - **其他**：Redis、Python（数据生成/生产）
-
 ## 系统架构
+
 ```mermaid
 graph LR
   A[模拟数据] --> B(Hive ODS)
