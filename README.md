@@ -19,16 +19,7 @@ graph LR
   E --> F[Flink SQL]
   F --> G[实时结果]
 ```
-技术栈
-类别	技术	版本/说明
-容器化	Docker Compose	V2
-数据仓库	Apache Hive	4.0.0
-元数据存储	MySQL	8.0
-消息队列	Apache Kafka	2.8 (wurstmeister)
-协调服务	ZooKeeper	latest
-实时计算	Apache Flink	1.18.1
-缓存	Redis	7-alpine
-数据生成/生产	Python	3.8+
+
 快速开始
 环境要求
 Docker Desktop (WSL2 backend)
